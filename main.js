@@ -5,7 +5,7 @@ const buttonLogin = document.querySelector('.login');
 const buttonRegistr = document.querySelector('.registr');
 
 buttonRegistr.addEventListener('click', e => {
-    window.location.href = 'http://127.0.0.1:5500/registration_page.html'
+    window.location.href = 'https://almaz1206ka.github.io/task-2.5/registration_page.html'
 });
 
 const person = {
