@@ -4,9 +4,9 @@ const inputPswd = document.querySelector('.pswd');
 const buttonLogin = document.querySelector('.login');
 const buttonRegistr = document.querySelector('.registr');
 
-buttonRegistr.addEventListener('click', e => {
-    window.location.href = 'https://almaz1206ka.github.io/task-2.5/registration_page.html'
-});
+// buttonRegistr.addEventListener('click', e => {
+//     window.location.href = 'https://almaz1206ka.github.io/task-2.5/registration_page.html'
+// });
 
 const person = {
     user: {
