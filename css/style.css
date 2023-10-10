@@ -15,14 +15,23 @@ body {
     margin-top: 50px;
 }
 
+.wrapper .hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    opacity: 0.2;
+}
+
 
 .wrapper__form {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
     border: 2px solid black;
-    width: 350px;
-    height: 100px;
+    width: 380px;
+    height: 160px;
 }
 
 .wrapper__form__input {
@@ -55,5 +64,19 @@ body {
     height: 20px;
     color: #f598a8;
     box-shadow: 5px 5px 0 black;
+}
+
+.active {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 65px;
+    z-index: 2;
+    width: 340px;
+    height: 130px;
+    background: linear-gradient(90deg, #f6edb2, #f598a8);
+    border-radius: 8px;
+    text-align: center;
 }
 
