@@ -57,6 +57,7 @@ body {
     display: flex;
     position: absolute;
     align-items: center;
+    justify-content: center;
     text-align: center;
     top: 85px;
     z-index: 2;
