@@ -19,6 +19,6 @@ userInfo.innerHTML =
 `;
 
 button.addEventListener('click', (e) => {
-    location.href = 'http://127.0.0.1:5500/index.html';
+    location.href = 'https://almaz1206ka.github.io/task-2.5/';
     localStorage.clear()
 })

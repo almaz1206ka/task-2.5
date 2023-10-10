@@ -62,7 +62,7 @@ document.addEventListener('click', (e) => {
         wrapperForm.classList.remove('hidden');
         if(wrapper.contains(sucsess)) {
             wrapper.removeChild(sucsess)
-            location.href = 'http://127.0.0.1:5500/index.html'
+            location.href = 'https://almaz1206ka.github.io/task-2.5/'
         } else if(wrapper.contains(errors)) {
             wrapper.removeChild(errors);
         } else if(wrapper.contains(wrongEmail)) {

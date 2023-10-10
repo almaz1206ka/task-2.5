@@ -13,13 +13,8 @@ wrongEmail.innerHTML = `Извините, вы ввели неккоректны
 
 const REGEXP = /^[\w]{1}[\w-\.]*@[\w-]+\.[a-z]{2,4}$/i;
 
-const uri = 'http://127.0.0.1:5500/start_page.html';
-const encoded = encodeURI(uri);
-const decoded = decodeURI(encoded)
-console.log(decoded);
-
 buttonRegistr.addEventListener('click', e => {
-    location.href = 'http://127.0.0.1:5500/registration_page.html';
+    location.href = 'https://almaz1206ka.github.io/task-2.5/registration_page.html';
 });
 
 let data = {};
@@ -46,10 +41,10 @@ buttonLogin.addEventListener('click', (e) => {
     getData(data).then(res => {
         if(res.status >= 200 && res.status < 300) {
             res.json().then(userInfo => {
-                location.href = 'http://127.0.0.1:5500/login.html';
+                location.href = 'https://almaz1206ka.github.io/task-2.5/login.html';
                 localStorage.setItem('username', userInfo.user.username);
                 localStorage.setItem('email', userInfo.user.email);
-                document.cookie = `token=${userInfo.user.token}; path=/main/; max-age=3600`;
+                document.cookie = `token=${userInfo.user.token}; max-age=3600`;
             })
         } 
         else {
